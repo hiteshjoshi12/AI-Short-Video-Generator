@@ -41,6 +41,7 @@ const SelectTopic = ({onUserSelect}) => {
           ))}
         </SelectContent>
       </Select>
+      
       {selectedOption == "Custom Prompt" && (
         <Textarea
           className="mt-3"
